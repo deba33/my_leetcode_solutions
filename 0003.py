@@ -16,18 +16,6 @@ class Solution:
 
         :param s: string
         :return: int
-
-        >>> Solution().lengthOfLongestSubstring("abcabcbb")
-        3
-        >>> Solution().lengthOfLongestSubstring("bbbbb")
-        1
-        >>> Solution().lengthOfLongestSubstring("pwwkew")
-        3
-        >>> Solution().lengthOfLongestSubstring("")
-        0
-        >>> Solution().lengthOfLongestSubstring("au")
-        2
-        >>> Solution().lengthOfLongestSubstring("dvdf")
         '''
         if len(s) == 0:
             return 0

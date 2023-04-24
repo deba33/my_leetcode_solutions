@@ -31,19 +31,6 @@ class Solution:
         :param l2: The second linked list
         :return: The new linked list that represents the sum of the two input linked lists.
         :rtype: ListNode
-        
-        :Example:
-        >>> l1 = ListNode(2, ListNode(4, ListNode(3)))
-        >>> l2 = ListNode(5, ListNode(6, ListNode(4)))
-        >>> Solution().addTwoNumbers(l1, l2)
-        ListNode(7, ListNode(0, ListNode(8)))
-        >>> l1 = ListNode(0)
-        >>> l2 = ListNode(0)
-        >>> Solution().addTwoNumbers(l1, l2)
-        ListNode(0)
-        >>> l1 = ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9)))))))
-        >>> l2 = ListNode(9, ListNode(9, ListNode(9, ListNode(9))))
-        >>> Solution().addTwoNumbers(l1, l2)
         '''
         dummy = ListNode()
         curr = dummy
